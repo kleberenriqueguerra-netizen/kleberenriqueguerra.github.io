@@ -1,0 +1,143 @@
+** {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+body {
+    background:
+        linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)),
+        url('caldo.jpg') center center / cover no-repeat fixed;
+    min-height: 100vh;
+    padding: 20px;
+}
+ .contenedor {
+     max-width: 420px;
+     margin: 0 auto;
+     background: #fffaf5;
+     padding: 30px;
+     border-radius: 20px;
+     box-shadow: 0 8px 24px rgba(180, 80, 0, 0.25);
+     border: 3px solid #e67700;
+ }
+ header {
+     text-align: center;
+     margin-bottom: 30px;
+ }
+ .logo {
+     max-width: 240px;
+     width: 85%;
+     margin-bottom: 18px;
+     border-radius: 16px;
+     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+ }
+ h1 {
+     color: #c02626;
+     font-size: 28px;
+     font-weight: 900;
+     text-shadow: 2px 2px 0px #fecaca;
+     letter-spacing: 1px;
+ }
+ .subtitulo {
+     color: #92400e;
+     margin-top: 8px;
+     font-size: 16px;
+     font-weight: 600;
+ }
+ .lista-precios {
+     margin-bottom: 30px;
+ }
+ .item {
+     display: flex;
+     justify-content: space-between;
+     padding: 14px 12px;
+     border-bottom: 2px dashed #fca5a5;
+     font-size: 18px;
+     font-weight: 500;
+     color: #7f1d1d;
+     transition: background 0.25s ease;
+ }
+ .item:hover {
+     background-color: #fee2e2;
+     border-radius: 8px;
+ }
+ .item span:last-child {
+     font-weight: 900;
+     color: #b45309;
+     font-size: 19px;
+ }
+ .boton-whatsapp {
+     display: block;
+     background: linear-gradient(135deg, #22c55e, #16a34a);
+     color: white;
+     text-align: center;
+     padding: 16px;
+     border-radius: 14px;
+     text-decoration: none;
+     font-weight: 900;
+     font-size: 19px;
+     box-shadow: 0 5px 15px rgba(22, 163, 74, 0.35);
+     transition: all 0.3s ease;
+ }
+ .boton-whatsapp:hover {
+     transform: translateY(-3px);
+     box-shadow: 0 8px 20px rgba(22, 163, 74, 0.45);
+ }
+ footer {
+     text-align: center;
+     margin-top: 24px;
+     font-size: 15px;
+     color: #854d0e;
+     font-weight: 600;
+ }
+ .categoria {
+     color: #92400e;
+     font-size: 20px;
+     margin: 30px 0 15px;
+     padding-bottom: 8px;
+     border-bottom: 2px solid #fca5a5;
+ }
+ .lista-precios a.item {
+     text-decoration: none;
+     color: inherit;
+     display: flex;
+     width: 100%;
+ }
+ /* ===== Estilos para páginas de producto ===== */
+ .pagina-producto {
+     text-align: center;
+ }
+ .boton-volver {
+     display: inline-block;
+     color: #c02626;
+     text-decoration: none;
+     font-weight: 600;
+     margin-bottom: 20px;
+     padding: 8px 16px;
+     background-color: #fee2e2;
+     border-radius: 8px;
+     transition: background 0.2s;
+ }
+ .boton-volver:hover {
+     background-color: #fecaca;
+ }
+ .precio-producto {
+     font-size: 28px;
+     font-weight: 900;
+     color: #b45309;
+     margin-top: 10px;
+ }
+ .imagen-producto img {
+     max-width: 100%;
+     border-radius: 16px;
+     margin: 20px 0;
+     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+ }
+ .descripcion-producto {
+     background-color: #fff8f0;
+     padding: 20px;
+     border-radius: 12px;
+     margin: 20px 0;
+     color: #7f1d1d;
+     font-size: 16px;
+ }
